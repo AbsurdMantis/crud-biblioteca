@@ -179,8 +179,8 @@ LOGIN_URL = 'login'
 
 
 #Dados obtidos do console do google
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'COLOQUE-KEY'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'COLOQUE-SECRET'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1064015761159-te9iadc4d4j1ccc66s44i7ccl38q2e85.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 
 
@@ -190,3 +190,4 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication'
     ]
 }
+
