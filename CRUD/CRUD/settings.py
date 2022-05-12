@@ -154,7 +154,8 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
 
-    'social_core.backends.google.GoogleOAuth2'
+    'social_core.backends.google.GoogleOAuth2',
+    'social_core.backends.facebook.FacebookOAuth2'
 
 ]
 
@@ -182,7 +183,8 @@ LOGIN_URL = 'login'
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1064015761159-te9iadc4d4j1ccc66s44i7ccl38q2e85.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
-
+SOCIAL_AUTH_FACEBOOK_KEY = '959747398002525'
+SOCIAL_AUTH_FACEBOOK_SECRET = '9f64afa9f0f36a91db73874cf4a4d7f2' 
 
 
 REST_FRAMEWORK = {
